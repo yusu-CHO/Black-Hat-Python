@@ -50,7 +50,6 @@ def response_handler(buffer):
     return buffer
 
 
-
 # ----- Edited part -----
 
 def proxy_handler(client_socket, remote_host, remote_port, receive_first):
@@ -62,7 +61,6 @@ def proxy_handler(client_socket, remote_host, remote_port, receive_first):
     remote_buffer = response_handler(remote_buffer)
 
 # ----- Edited part -----
-
 
 
     if len(remote_buffer):
